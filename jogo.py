@@ -34,5 +34,5 @@ for rodada in range (1, totalTentativas +1):
         continue
 
     acertou = chute == numeroSecreto
-    maior = chute == numeroSecreto
-    menor = chute == numeroSecreto
+    maior = chute > numeroSecreto
+    menor = chute < numeroSecreto
