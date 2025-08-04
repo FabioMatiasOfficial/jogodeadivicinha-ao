@@ -36,3 +36,11 @@ for rodada in range (1, totalTentativas +1):
     acertou = chute == numeroSecreto
     maior = chute > numeroSecreto
     menor = chute < numeroSecreto
+
+
+
+    if(maior):
+        print(f"Você acertou! seu chute foi maior que o numero secreto")
+    ilef(menor):
+        print(f"Você acertou! seu chute foi maior que o numero secreto")
+
